@@ -2,14 +2,15 @@
 Simple Python to transfer Tektronix TDS3000 scope images to file
 
 # Requirements
-Needs PyVISA, which can be found at (https://pyvisa.readthedocs.org/en/stable/)[foo]
+Needs PyVISA, which can be found at (pyvisa.org)[https://pyvisa.readthedocs.org/en/stable/]
 
 To get pyvisa to work correctly, I had to add to .bash_profile
-
+````
 #
 # PyVISA
 #
 export PYTHONPATH=/Library/Python/2.7/site-packages:$PYTHONPATH
+````
 
 ##
 #
